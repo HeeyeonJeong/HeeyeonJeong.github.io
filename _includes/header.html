@@ -10,28 +10,28 @@
         <li class="btn-nav">Blog</li>
       </a>
       <li class="current">Tags</li>
-      <a href="{{ site.url }}/portfolio">
-        <li class="btn-nav">Portfolio</li>
+      <a href="{{ site.url }}/me">
+        <li class="btn-nav">Me</li>
       </a>
       <!-- portfolio -->
-      {% when 'portfolio'%}
+      {% when 'me'%}
       <a href="{{ site.url }}">
         <li class="btn-nav">Blog</li>
       </a>
       <a href="{{ site.url }}/tags">
         <li class="btn-nav">Tags</li>
       </a>
-      <li class="current">Portfolio</li>
+      <li class="current">Me</li>
       {% else %}
       <!-- others -->
       <a href="{{ site.url }}">
-        <li class="current btn-nav">Blog</li>
+        <li class="current">Blog</li>
       </a>
       <a href="{{ site.url }}/tags">
         <li class="btn-nav">Tags</li>
       </a>
-      <a href="{{ site.url }}/portfolio">
-        <li class="btn-nav">Portfolio</li>
+      <a href="{{ site.url }}/me">
+        <li class="btn-nav">Me</li>
       </a>
       {% endcase %}
     </ul>

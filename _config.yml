@@ -39,7 +39,7 @@ theme_settings:
     tistory: heeyeonjeong
 
   # Disqus
-  disqus_shortname:
+  disqus_shortname: heeyeonjeong-github-io
 
 # Pagination
 paginate: 5

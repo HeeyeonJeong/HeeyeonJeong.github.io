@@ -4,51 +4,54 @@ url: "https://heeyeonjeong.github.io/"
 
 # Blog Settings
 theme_settings:
-  title: HeeyeonJeong
-  favicon: assets/favicon.ico
+    title: HeeyeonJeong
+    favicon: assets/favicon.ico
 
-  # Profile Settings
-  profile:
-    image: assets/img/20201124_015607908.jpg
-    username: Heeyeon Jeong
-    description: 하루를 기록하는 공간입니다.
-    # experience:
-    #   - start: 2017-05-03
-    #     end: 2018-05-06
-    #     experience: company name, title
-    skills:
-      - skill: HTML5 & CSS
-        value: 85 # Percent value
-      - skill: JavaScript
-        value: 70 # Percent value
-      - skill: React
-        value: 30 # Percent value
+    # Profile Settings
+    profile:
+        image: assets/img/20201124_015607908.jpg
+        username: Heeyeon Jeong
+        description: 하루를 기록하는 공간입니다.
+        # experience:
+        #   - start: 2017-05-03
+        #     end: 2018-05-06
+        #     experience: company name, title
+        skills:
+            - skill: HTML5 & CSS
+              value: 85 # Percent value
+            - skill: JavaScript
+              value: 70 # Percent value
+            - skill: React
+              value: 30 # Percent value
 
-  # Icons
-  icons:
-    email: junghy14971@gmail.com
-    linkedin:
-    github: HeeyeonJeong
-    gitlab:
-    bitbucket:
-    google_plus:
-    twitter:
-    youtube:
-    facebook:
-    instagram:
-    tistory: heeyeonjeong
+    # Icons
+    icons:
+        email: junghy14971@gmail.com
+        linkedin:
+        github: HeeyeonJeong
+        gitlab:
+        bitbucket:
+        google_plus:
+        twitter:
+        youtube:
+        facebook:
+        instagram:
+        tistory: heeyeonjeong
 
-  # Disqus
-  disqus_shortname: heeyeonjeong-github-io
+    # Disqus
+    disqus_shortname: heeyeonjeong-github-io
 
 # Pagination
 paginate: 5
 paginate_path: "blog/page:num"
 
+#Analytics
+analytics_id: "G-XJMYE4ZP2J"
+
 # Build Ssttings
 sass:
-  sass_dir: _sass
-  style: :compressed
+    sass_dir: _sass
+    style: :compressed
 gems: [jekyll-paginate]
 bootstrap:
-  assets: true
+    assets: true

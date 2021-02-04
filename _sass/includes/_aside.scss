@@ -10,6 +10,25 @@
     letter-spacing: -0.05rem;
     font-size: 1rem;
   }
+
+  .more-btn {
+    outline: none;
+    border: none;
+    font-weight: 700;
+    font-size: medium;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.07);
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .more-btn:hover {
+    color: white;
+    background-color: #563d7c;
+  }
+
   .img-wrap {
     display: inline-block;
     position: relative;
